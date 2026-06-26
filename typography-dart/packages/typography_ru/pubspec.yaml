@@ -1,0 +1,18 @@
+name: typography_ru
+description: >-
+  Russian UI micro-typography rules (non-breaking spaces around short words and
+  em dashes, narrow NBSP for percent/currency, numeral+noun, guillemet quotes)
+  built on typography_core. Pure Dart, no Flutter. Public entry point: ru().
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  typography_core:
+    path: ../typography_core
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0

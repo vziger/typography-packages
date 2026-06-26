@@ -1,0 +1,15 @@
+# Local-only docs (reference plans with absolute machine paths)
+docs/
+
+# Tooling / IDE / OS
+.claude/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Dart / Pub (patterns are recursive, so they cover packages/* too)
+.dart_tool/
+.packages
+build/
+pubspec.lock

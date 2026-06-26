@@ -1,0 +1,14 @@
+name: typography_core
+description: >-
+  Core engine for micro-typography: non-breaking space constants, a Rule type
+  (regex + replacement) and an applyRules() engine that runs a list of rules
+  over a string. Language-agnostic; pure Dart, no Flutter.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
