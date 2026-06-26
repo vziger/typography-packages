@@ -1,5 +1,11 @@
 # typography-go
 
+[![Go CI](https://github.com/vziger/typography-packages/actions/workflows/ci-go.yml/badge.svg)](https://github.com/vziger/typography-packages/actions/workflows/ci-go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vziger/typography-packages/typography-go/ru.svg)](https://pkg.go.dev/github.com/vziger/typography-packages/typography-go/ru)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vziger/typography-packages/typography-go)](https://goreportcard.com/report/github.com/vziger/typography-packages/typography-go)
+[![Go version](https://img.shields.io/github/go-mod/go-version/vziger/typography-packages?filename=typography-go%2Fgo.mod)](go.mod)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Pure-Go micro-typography for UI strings, organized by language. A small,
 dependency-free engine plus per-language rule sets. The Russian package (`ru`) is
 a behavioral port of the [Dart implementation](../typography-dart/) and matches

@@ -1,5 +1,9 @@
 # typography-packages
 
+[![Dart CI](https://github.com/vziger/typography-packages/actions/workflows/ci.yml/badge.svg)](https://github.com/vziger/typography-packages/actions/workflows/ci.yml)
+[![Go CI](https://github.com/vziger/typography-packages/actions/workflows/ci-go.yml/badge.svg)](https://github.com/vziger/typography-packages/actions/workflows/ci-go.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](typography-go/LICENSE)
+
 Umbrella repository for micro-typography libraries, organized by language /
 ecosystem. Each top-level directory is an independent project with its own
 build, tests and versioning.

@@ -1,5 +1,8 @@
 # typography-packages
 
+[![Dart CI](https://github.com/vziger/typography-packages/actions/workflows/ci.yml/badge.svg)](https://github.com/vziger/typography-packages/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Pure-Dart (no Flutter) micro-typography libraries, structured as a monorepo with
 one package per language on top of a shared engine.
 
