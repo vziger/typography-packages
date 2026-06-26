@@ -13,3 +13,8 @@ docs/
 .packages
 build/
 pubspec.lock
+
+# Go
+*.test
+*.out
+vendor/

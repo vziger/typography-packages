@@ -1,0 +1,28 @@
+name: Go CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'typography-go/**'
+      - '.github/workflows/ci-go.yml'
+  pull_request:
+    paths:
+      - 'typography-go/**'
+      - '.github/workflows/ci-go.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: typography-go
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+      - name: Vet
+        run: go vet ./...
+      - name: Test
+        run: go test ./...
