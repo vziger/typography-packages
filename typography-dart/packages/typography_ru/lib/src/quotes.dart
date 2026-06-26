@@ -1,4 +1,4 @@
-/// Russian quote normalization (rule 6 of the spec).
+/// Russian quote normalization
 ///
 /// Converts straight double quotes `"..."` into typographic quotes:
 /// first level → guillemets «», nested level → German low-high „“.
